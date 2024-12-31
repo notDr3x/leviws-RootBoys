@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina di esempio</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css"> <!-- Collegamento a un file CSS esterno -->
+    <link rel="stylesheet" href="bootstrap.min.css"> <!-- Collegamento a un file CSS esterno -->
     <style>
         body{
             background-color: #2b2929;
