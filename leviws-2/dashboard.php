@@ -20,6 +20,7 @@ $canAccessSettings = checkPermission($pdo, $userGroupId, 'access_settings');
     <title>Dashboard</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styleDashboard.css">
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -42,11 +43,38 @@ $canAccessSettings = checkPermission($pdo, $userGroupId, 'access_settings');
         </div>
     </div>
 </nav>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/fotoLevi.jpg" alt="Prima immagine - Levi">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/fotoLevi.jpg" alt="Seconda immagine - Levi">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/xnq8npvo.png" alt="Terza immagine - Bambino">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<script src="assets/js/jquery-3.7.1.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
 <div class="container mt-5">
     <h1>Welcome to the Dashboard</h1>
     <p>This is an example menu based on user permissions.</p>
 </div>
-<script src="assets/js/jquery-3.7.1.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
 </body>
 </html>

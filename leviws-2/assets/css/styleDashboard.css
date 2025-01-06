@@ -19,3 +19,9 @@
     color: #2f87bb;
     padding-bottom: 10px;
 }
+
+.static{
+    position:sticky;
+    top: 0;
+    z-index: 9; /*sovrapposizione*/
+}
