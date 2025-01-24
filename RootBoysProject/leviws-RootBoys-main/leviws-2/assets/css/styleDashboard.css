@@ -1,0 +1,147 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 300;
+}
+
+.testa {
+    text-align: left; /* Per l'allineamento */
+    margin-left: 50px;
+}
+
+.collapse.navbar-collapse {
+    margin-right: 50px;
+}
+
+.testa img {
+    display: inline-block;
+    vertical-align: middle; /* Allinea immagine al centro verticalmente */
+    width: 50px;
+}
+.testa h5 {
+    display: inline-block;
+    vertical-align: middle; /* Allinea testo al centro verticalmente */
+    margin: 0;
+}
+
+#logo_levi_img {
+    width: 140px;
+    height: auto;
+    padding-right: 10px;
+}
+
+#iosArrow_img{
+    width: 40px;
+    height: auto;
+}
+
+.pad{
+    text-transform: uppercase;
+    margin: 0 0 0 15px;
+    font-weight: 300;
+    line-height: 1.02em;
+    letter-spacing: 0.1em;
+    color: #2f87bb;
+    padding-bottom: 10px;
+}
+
+.static{
+    position:sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.dropdown-menu {
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgb(25, 28, 31);
+    border: none;
+    margin-top: 5px;
+    min-width: 180px;
+}
+
+.dropdown-menu .dropdown-item {
+    padding: 8px 12px;
+    color: #999;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.titillium-web-extralight {
+    font-family: "Titillium Web", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.titillium-web-light {
+    font-family: "Titillium Web", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.titillium-web-regular {
+    font-family: "Titillium Web", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titillium-web-semibold {
+    font-family: "Titillium Web", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.titillium-web-bold {
+    font-family: "Titillium Web", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.titillium-web-black {
+    font-family: "Titillium Web", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+    font-family: "Titillium Web", serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.titillium-web-light-italic {
+    font-family: "Titillium Web", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.titillium-web-regular-italic {
+    font-family: "Titillium Web", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+    font-family: "Titillium Web", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.titillium-web-bold-italic {
+    font-family: "Titillium Web", serif;
+    font-weight: 700;
+    font-style: italic;
+}
