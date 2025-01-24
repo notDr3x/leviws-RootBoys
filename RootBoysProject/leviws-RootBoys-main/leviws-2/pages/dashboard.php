@@ -56,7 +56,7 @@ $canAccessSettings = checkPermission($pdo, $userGroupId, 'access_settings');
                                     <a href="#" style="text-decoration: none; color: #999; font-size: 0.9em;">Nuovo</a>
                                 </div>
                                 <ul class="dropdown-menu" aria-labelledby="newDropdown">
-                                    <li><a class="dropdown-item" href="#">Proposta</a></li>
+                                    <li><a class="dropdown-item" href="send_proposer.php">Proposta</a></li>
                                     <li><a class="dropdown-item" href="#">Modulo</a></li>
                                     <li><a class="dropdown-item" href="#">Relazione</a></li>
                                 </ul>
