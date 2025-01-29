@@ -28,7 +28,3 @@
   ### Kevin Sula
       - Storywriter
       - GitHub Manager
-      - Dicksucker
-  ### Souhaib Sousane
-      - Schiavo sessuale
-      - Slave
