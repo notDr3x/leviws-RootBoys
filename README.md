@@ -17,13 +17,14 @@
 
 ## Crediti
   ### Lorenzo Ferrari 
-      - Front End Developer
       - GitHub Management
+      - Full Stack Developer
+      - GUI Designer
   ### Luca Mazzi
-      - Front End Developer
+      - Full Stack Developer
       - GUI Designer 
   ### Reuben Minta Duku
-      - Front End Developer
+      - Full Stack Developer
       - Database Manager
   ### Kevin Sula
       - Storywriter
