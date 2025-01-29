@@ -7,18 +7,23 @@
 
 ## Diario di bordo
   ### 28/11/2024
-    Creazione del gruppo composto da Luca Mazzi, Reuben Minta, Sula Kevin, Ferrari Lorenzo
+    Creazione del gruppo composto da Luca Mazzi, Reuben Minta, Sula Kevin, Ferrari Lorenzo.
 
   ### 04/12/2024
     Raccolta dei requisiti grazie al professor Sorvillo per l'implementazione del sito web dedicato alla 
     gestione delle uscite didattiche e dei viaggi d'istruzione.
   
   ### 29/12/2024
+    Continuo con l'implementazione del sito web e costruzione del diagramma E/R.
+    
     - Reuben
       [+] Creazione Home
 
     - Luca
       [+] Modifica pagina di Login e Home
+
+    - Lorenzo
+      [+] Creazione primo diagramma E/R
 
   ### 30/12/2024
     - Reuben
