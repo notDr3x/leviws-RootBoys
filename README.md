@@ -1,4 +1,4 @@
-![Logo (Wh)]([https://github.com/notDr3x/leviws-RootBoys/blob/main/LogoRootBoys.png?raw=true])
+![Logo (Wh)](https://github.com/notDr3x/leviws-RootBoys/blob/main/LogoRootBoys.png)
 
 ## Descrizione
   Leviws2, il gestionale di gite e viaggi di cui avevi bisogno :)
