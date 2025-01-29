@@ -10,8 +10,8 @@
     Creazione del gruppo composto da Luca Mazzi, Reuben Minta, Sula Kevin, Ferrari Lorenzo
 
   ### 04/12/2024
-    Raccolta dei requisiti grazie al professor Sorvillo per l'implementazione del sito web dedicato alla gestione 
-    delle uscite didattiche e dei viaggi d'istruzione.
+    Raccolta dei requisiti grazie al professor Sorvillo per l'implementazione del sito web dedicato alla 
+    gestione delle uscite didattiche e dei viaggi d'istruzione.
   #### ciao
 
 
