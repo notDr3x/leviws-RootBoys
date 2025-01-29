@@ -1,18 +1,18 @@
-# RootBoys
-Compito informatica 5^ anno: sito web per viaggi di istruzione del levi
-
-## Diario di bordo
-  ### 29/01/2024 - Alpha 0.0.1
-    - Costruita la struttura base del programma
-    - Sviluppo in corso del sistema di navigazione con frecce
-
-  ### 30/01/2024 - [Alpha 0.0.2](https://github.com/g0ldo/FGM_Project/blob/3530acfb72393ad7c0bb9f00007db90ec1aec4ac/FGM%20Alpha%200.0.2.zip)
-    - Implementata la navigazione mediante i tasti W A S D
-
+![Logo (Wh)](https://github.com/g0ldo/First-Order/blob/63889abfb27aa5248d58bfadb6e6a8ec6dce8744/NL.png)
 
 ## Descrizione
-  LeviWS2, il gestionale di gite e viaggi di cui avevi bisogno :)
-  
+  Leviws2, il gestionale di gite e viaggi di cui avevi bisogno :)
+
+
+
+## Diario di bordo
+  ### 28/11/2024
+    Creazione del gruppo composto da Luca Mazzi, Reuben Minta, Sula Kevin, Ferrari Lorenzo
+
+  ### 04/12/2024
+    Raccolta dei requisiti grazie al professor Sorvillo per l'implementazione del sito web dedicato alla gestione delle uscite didattiche e dei viaggi d'istruzione.
+  #### ciao
+
 
 ## Crediti
   ### Lorenzo Ferrari 
