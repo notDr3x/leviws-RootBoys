@@ -65,7 +65,7 @@
     └─ [+] Aggiunta font personalizzato al gestionale
   
   ### 15/01/2025 - [Alpha v0.0.1](https://github.com/notDr3x/leviws-RootBoys/releases/tag/v0.0.1)
-    Continuo svolgimento del gestionale in classe col gruppo.
+    Continuo svolgimento del gestionale in classe col gruppo e prima pubblicazione della prima versione.
 
     ┌ Ruben
     └─ [+] Inizio lavorazione su Workbench
