@@ -16,104 +16,104 @@
   ### 29/12/2024
     Continuo con l'implementazione del sito web e costruzione del diagramma E/R.
     
-    - Reuben
-      [+] Creazione Home
+    ┌ Reuben
+    └─ [+] Creazione Home
 
-    - Luca
-      [+] Apporto di modifiche alla pagina di Login
-      [+] Apporto di modifiche alla pagina Dashboard
+    ┌ Luca
+    ├─ [+] Apporto di modifiche alla pagina di Login
+    └─ [+] Apporto di modifiche alla pagina Dashboard
 
-    - Lorenzo
-      [+] Creazione primo diagramma E/R
+    ┌ Lorenzo
+    └─ [+] Creazione primo diagramma E/R
 
   ### 30/12/2024
-    - Reuben
-      [+] Creazione diagramma di Gantt
-      [+] Modifica Home
+    ┌ Reuben
+    ├─ [+] Creazione diagramma di Gantt
+    └─ [+] Modifica Home
 
   ### 31/12/2024
     Creazione delle relazioni riguardanti il gestionale Leviws con tanto di query e diagramma E/R.
   
   ### 01/01/2025
-    - Luca
-      [+] Apporto di modifiche alla pagina Dashboard
+    ┌ Luca
+    └─ [+] Apporto di modifiche alla pagina Dashboard
   
   ### 06/01/2025
-    - Luca
-      [+] Apporto di modifiche alla pagina di Login
+    ┌ Luca
+    └─ [+] Apporto di modifiche alla pagina di Login
 
-    - Ruben  
-      [+] Apporto di modifiche alla pagina Dashboard
-      [+] Aggiunta di immagini a scorrimento alla pagina Dashboard
+    ┌ Ruben  
+    ├─ [+] Apporto di modifiche alla pagina Dashboard
+    └─ [+] Aggiunta di immagini a scorrimento alla pagina Dashboard
   
   ### 10/01/2025
-    - Ruben
-      [+] Apporto di modifiche al diagramma di Gantt
-      [+] Apporto di modifiche al diagramma E/R
+    ┌ Ruben
+    ├─ [+] Apporto di modifiche al diagramma di Gantt
+    └─ [+] Apporto di modifiche al diagramma E/R
 
-    - Lorenzo
-      [+] Modifica immagini a scorrimento
-      |
-      [-] Correzione di eventuali bug
+    ┌ Lorenzo
+    ├─ [+] Modifica immagini a scorrimento
+    │
+    └─ [-] Correzione di eventuali bug
   
   ### 13/01/2025
-    - Ruben
-      [+] Apporto di modifiche alla pagina Gestione Utenti
+    ┌ Ruben
+    └─ [+] Apporto di modifiche alla pagina Gestione Utenti
       
-    - Lorenzo
-      [+] Apporto di modifiche alla pagina Dashboard
-      [+] Aggiunta font personalizzato al gestionale
+    ┌ Lorenzo
+    ├─ [+] Apporto di modifiche alla pagina Dashboard
+    └─ [+] Aggiunta font personalizzato al gestionale
   
   ### 15/01/2025
     Continuo svolgimento del gestionale in classe col gruppo.
 
-    - Ruben
-      [+] Inizio lavorazione su Workbench
+    ┌ Ruben
+    └─ [+] Inizio lavorazione su Workbench
 
-    - Luca 
-      [-] Rimozione bug generali
+    ┌ Luca 
+    └─ [-] Rimozione bug generali
 
-    - Lorenzo
-      [-] Rimozione bug generali
+    ┌ Lorenzo
+    └─ [-] Rimozione bug generali
   
   ### 18/01/2025
-    - Luca
-      [+] Creazione della presentazione per l'esposizione del sito web
+    ┌ Luca
+    └─ [+] Creazione della presentazione per l'esposizione del sito web
     
-    - Lorenzo
-      [+] Apporto di modifiche alla pagina Dashboard
-      [+] Apporto di modifiche alla pagina Gestione Utenti
+    ┌ Lorenzo
+    ├─ [+] Apporto di modifiche alla pagina Dashboard
+    └─ [+] Apporto di modifiche alla pagina Gestione Utenti
 
   ### 22/01/2025
   	Continuo svolgimento del gestionale in classe col gruppo.
     
-    - Ruben
-      [+] Inizio svolgimento delle prime query
-      [+] Creazione della pagina Proposte
+    ┌ Ruben
+    ├─ [+] Inizio svolgimento delle prime query
+    └─ [+] Creazione della pagina Proposte
   
   ### 28/01/2025
     Incontro su Discord per discutere e apportare modifiche sul sito.
 
-    - Ruben
-      [+] Continuo svolgimento delle query
+    ┌ Ruben
+    └─ [+] Continuo svolgimento delle query
   
-    - Lorenzo
-      [+] Creazione di un foglio CSS unico valido per tutte le pagine
-      |
-      [-] Eliminazione di file ridondanti come pagine CSS 
-      [-] Pulizia codice generale 
+    ┌ Lorenzo
+    ├─ [+] Creazione di un foglio CSS unico valido per tutte le pagine
+    │
+    ├─ [-] Eliminazione di file ridondanti come pagine CSS 
+    └─ [-] Pulizia codice generale 
       
   ### 29/01/2025 - Alpha v0.0.2
     Continuo svolgimento del gestionale in classe col gruppo.
     
-    - Ruben 
-      [+] Lavorazione e istanziamento delle prime query
+    ┌ Ruben 
+    └─ [+] Lavorazione e istanziamento delle prime query
 
     ┌ Lorenzo
-    ├─[+] Pubblicazione Leviws2 v0.0.2 Alpha
-    ├─[+] Perfezionamento del sito
+    ├─ [+] Pubblicazione Leviws2 v0.0.2 Alpha
+    ├─ [+] Perfezionamento del sito
     │  
-    └─[-] Rimozione eventuali bug minori
+    └─ [-] Rimozione eventuali bug minori
     
 
 
