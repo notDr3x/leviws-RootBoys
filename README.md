@@ -74,6 +74,8 @@
     └─ [-] Rimozione bug generali
 
     ┌ Lorenzo
+    ├─ [+] Pubblicazione prima versione del gestionale Leviws2 (Alpha v0.0.1)
+    |
     └─ [-] Rimozione bug generali
   
   ### 18/01/2025
@@ -110,7 +112,7 @@
     └─ [+] Lavorazione e istanziamento delle prime query
 
     ┌ Lorenzo
-    ├─ [+] Pubblicazione Leviws2 v0.0.2 Alpha
+    ├─ [+] Pubblicazione seconda versione del gestionale Leviws2 (Alpha v0.0.2)
     ├─ [+] Perfezionamento del sito
     │  
     └─ [-] Rimozione eventuali bug minori
