@@ -105,7 +105,7 @@
     ├─ [-] Eliminazione di file ridondanti come pagine CSS 
     └─ [-] Pulizia codice generale 
       
-  ### 29/01/2025 - Alpha v0.0.2
+  ### 29/01/2025 - [Alpha v0.0.2](https://github.com/notDr3x/leviws-RootBoys/releases/tag/v0.0.2)
     Continuo svolgimento del gestionale in classe col gruppo.
     
     ┌ Ruben 
