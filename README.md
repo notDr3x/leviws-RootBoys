@@ -28,3 +28,4 @@
   ### Kevin Sula
       - Storywriter
       - GitHub Manager
+      - Dicksucker
