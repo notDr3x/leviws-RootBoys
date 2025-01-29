@@ -12,7 +12,18 @@
   ### 04/12/2024
     Raccolta dei requisiti grazie al professor Sorvillo per l'implementazione del sito web dedicato alla 
     gestione delle uscite didattiche e dei viaggi d'istruzione.
-  #### ciao
+  
+  ### 29/12/2024
+    - Reuben
+      [+] Creazione Home
+
+    - Luca
+      [+] Modifica pagina di Login e Home
+
+  ### 30/12/2024
+    - Reuben
+      [+] Creazione diagramma di Gantt
+      [+] Modifica Home
 
 
 ## Crediti
