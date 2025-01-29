@@ -109,11 +109,11 @@
     - Ruben 
       [+] Lavorazione e istanziamento delle prime query
 
-    - Lorenzo
-      [+] Pubblicazione Leviws2 v0.0.2 Alpha
-      [+] Perfezionamento del sito
-      |
-      [-] Rimozione eventuali bug minori
+    ┌ Lorenzo
+    ├─[+] Pubblicazione Leviws2 v0.0.2 Alpha
+    ├─[+] Perfezionamento del sito
+    │  
+    └─[-] Rimozione eventuali bug minori
     
 
 
