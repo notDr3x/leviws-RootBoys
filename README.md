@@ -74,6 +74,7 @@
     └─ [-] Rimozione bug generali
 
     ┌ Lorenzo
+    ├─ [+] Migliorata gestione dei contenuti con l'aggiunta di cartelle suddivise per tipo di file 
     ├─ [+] Pubblicazione prima versione del gestionale Leviws2 (Alpha v0.0.1)
     |
     └─ [-] Rimozione bug generali
@@ -116,6 +117,15 @@
     ├─ [+] Perfezionamento del sito
     │  
     └─ [-] Rimozione eventuali bug minori
+
+  ### 31/01/2025
+    Continuo svolgimento del gestionale in classe col gruppo.
+
+    ┌ Ruben 
+    └─ [+] Continuo sviluppo del database del gestionale
+
+    ┌ Kevin 
+    └─ [+] Modifica diagramma di Gantt su Project
     
 
 
