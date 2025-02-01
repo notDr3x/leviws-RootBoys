@@ -130,13 +130,14 @@
 
 
 ## Crediti
+### Luca Mazzi
+      - Leader
+      - Full Stack Developer
+      - GUI Designer 
   ### Lorenzo Ferrari 
       - GitHub Manager
       - Full Stack Developer
       - GUI Designer
-  ### Luca Mazzi
-      - Full Stack Developer
-      - GUI Designer 
   ### Reuben Minta Duku
       - Full Stack Developer
       - Database Manager
