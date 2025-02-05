@@ -126,6 +126,12 @@
 
     ┌ Kevin 
     └─ [+] Modifica diagramma di Gantt su Project
+
+  ### 05/02/2025
+    Continuo svolgimento del gestionale in classe col gruppo.
+
+    ┌ Ruben 
+    └─ [+] Continuo sviluppo del database e del diagramma di Gantt
     
 
 
