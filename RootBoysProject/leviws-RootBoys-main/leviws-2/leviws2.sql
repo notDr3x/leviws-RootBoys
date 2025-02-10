@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Feb 09, 2025 alle 18:49
+-- Creato il: Feb 10, 2025 alle 17:36
 -- Versione del server: 10.4.32-MariaDB
 -- Versione PHP: 8.2.12
 
@@ -36,6 +36,19 @@ CREATE TABLE `bozza` (
                          `due_idReferente` bigint(13) UNSIGNED NOT NULL,
                          `idReferente` bigint(13) UNSIGNED NOT NULL,
                          `idClasse` bigint(14) UNSIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Struttura della tabella `classe`
+--
+
+CREATE TABLE `classe` (
+                          `idclasse` bigint(14) UNSIGNED NOT NULL,
+                          `N_studenti` int(11) NOT NULL,
+                          `cordinatore` bigint(13) UNSIGNED NOT NULL,
+                          `idistituto` bigint(15) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 -- --------------------------------------------------------
@@ -87,6 +100,30 @@ CREATE TABLE `istituto` (
 -- --------------------------------------------------------
 
 --
+-- Struttura della tabella `proposte`
+--
+
+CREATE TABLE `proposte` (
+                            `idproposte` bigint(19) UNSIGNED NOT NULL,
+                            `idBozza` bigint(18) UNSIGNED NOT NULL,
+                            `idtipoViaggio` bigint(15) UNSIGNED NOT NULL,
+                            `idAccompagnatore` bigint(13) UNSIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Struttura della tabella `tipoviaggio`
+--
+
+CREATE TABLE `tipoviaggio` (
+                               `idtipoViaggio` bigint(17) UNSIGNED NOT NULL,
+                               `nome_Viaggio` varchar(45) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Struttura della tabella `users`
 --
 
@@ -133,16 +170,24 @@ CREATE TABLE `viaggio` (
 --
 ALTER TABLE `bozza`
     ADD PRIMARY KEY (`idbozza`),
-  ADD KEY `classb_isk_idx` (`idClasse`),
-  ADD KEY `docb_isk_idx` (`idReferente`),
-  ADD KEY `docbdue_isk__idx` (`due_idReferente`);
+    ADD KEY `classb_isk_idx` (`idClasse`),
+    ADD KEY `docb_isk_idx` (`idReferente`),
+    ADD KEY `docbdue_isk__idx` (`due_idReferente`);
+
+--
+-- Indici per le tabelle `classe`
+--
+ALTER TABLE `classe`
+    ADD PRIMARY KEY (`idclasse`),
+    ADD KEY `cord_isk_idx` (`cordinatore`),
+    ADD KEY `ist_isk_idx` (`idistituto`);
 
 --
 -- Indici per le tabelle `docente`
 --
 ALTER TABLE `docente`
     ADD PRIMARY KEY (`iddocente`),
-  ADD KEY `user_isk_idx` (`idUser`);
+    ADD KEY `user_isk_idx` (`idUser`);
 
 --
 -- Indici per le tabelle `groups`
@@ -157,21 +202,36 @@ ALTER TABLE `istituto`
     ADD PRIMARY KEY (`idistituto`);
 
 --
+-- Indici per le tabelle `proposte`
+--
+ALTER TABLE `proposte`
+    ADD PRIMARY KEY (`idproposte`),
+    ADD KEY `bozzap_isk_idx` (`idBozza`),
+    ADD KEY `tipviaggiop_isk_idx` (`idtipoViaggio`),
+    ADD KEY `accp_isk_idx` (`idAccompagnatore`);
+
+--
+-- Indici per le tabelle `tipoviaggio`
+--
+ALTER TABLE `tipoviaggio`
+    ADD PRIMARY KEY (`idtipoViaggio`);
+
+--
 -- Indici per le tabelle `users`
 --
 ALTER TABLE `users`
     ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `username` (`username`),
-  ADD KEY `group_id` (`group_id`);
+    ADD UNIQUE KEY `username` (`username`),
+    ADD KEY `group_id` (`group_id`);
 
 --
 -- Indici per le tabelle `viaggio`
 --
 ALTER TABLE `viaggio`
     ADD PRIMARY KEY (`idviaggio`),
-  ADD KEY `tip_isk_idx` (`tipoViaggio`),
-  ADD KEY `ref_isk_idx` (`idReferente`),
-  ADD KEY `prop_isk_idx` (`idProposta`);
+    ADD KEY `tip_isk_idx` (`tipoViaggio`),
+    ADD KEY `ref_isk_idx` (`idReferente`),
+    ADD KEY `prop_isk_idx` (`idProposta`);
 
 --
 -- AUTO_INCREMENT per le tabelle scaricate
@@ -204,14 +264,29 @@ ALTER TABLE `users`
 --
 ALTER TABLE `bozza`
     ADD CONSTRAINT `classb_isk` FOREIGN KEY (`idClasse`) REFERENCES `classe` (`idclasse`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `docb_isk` FOREIGN KEY (`idReferente`) REFERENCES `docente` (`iddocente`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `docbdue_isk_` FOREIGN KEY (`due_idReferente`) REFERENCES `docente` (`iddocente`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+    ADD CONSTRAINT `docb_isk` FOREIGN KEY (`idReferente`) REFERENCES `docente` (`iddocente`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+    ADD CONSTRAINT `docbdue_isk_` FOREIGN KEY (`due_idReferente`) REFERENCES `docente` (`iddocente`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+--
+-- Limiti per la tabella `classe`
+--
+ALTER TABLE `classe`
+    ADD CONSTRAINT `cord_isk` FOREIGN KEY (`cordinatore`) REFERENCES `docente` (`iddocente`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+    ADD CONSTRAINT `ist_isk` FOREIGN KEY (`idistituto`) REFERENCES `istituto` (`idistituto`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
 -- Limiti per la tabella `docente`
 --
 ALTER TABLE `docente`
     ADD CONSTRAINT `user_isk` FOREIGN KEY (`idUser`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+--
+-- Limiti per la tabella `proposte`
+--
+ALTER TABLE `proposte`
+    ADD CONSTRAINT `accp_isk` FOREIGN KEY (`idAccompagnatore`) REFERENCES `docente` (`iddocente`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+    ADD CONSTRAINT `bozzap_isk` FOREIGN KEY (`idBozza`) REFERENCES `bozza` (`idbozza`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+    ADD CONSTRAINT `tipviaggiop_isk` FOREIGN KEY (`idtipoViaggio`) REFERENCES `tipoviaggio` (`idtipoViaggio`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
 -- Limiti per la tabella `users`
@@ -224,8 +299,8 @@ ALTER TABLE `users`
 --
 ALTER TABLE `viaggio`
     ADD CONSTRAINT `prop_isk` FOREIGN KEY (`idProposta`) REFERENCES `proposte` (`idproposte`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `ref_isk` FOREIGN KEY (`idReferente`) REFERENCES `docente` (`iddocente`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `tip_isk` FOREIGN KEY (`tipoViaggio`) REFERENCES `tipoviaggio` (`idtipoViaggio`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+    ADD CONSTRAINT `ref_isk` FOREIGN KEY (`idReferente`) REFERENCES `docente` (`iddocente`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+    ADD CONSTRAINT `tip_isk` FOREIGN KEY (`tipoViaggio`) REFERENCES `tipoviaggio` (`idtipoViaggio`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
