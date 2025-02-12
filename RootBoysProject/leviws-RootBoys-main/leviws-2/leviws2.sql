@@ -6,7 +6,7 @@
 -- Creato il: Feb 12, 2025 alle 08:27
 -- Versione del server: 10.4.32-MariaDB
 -- Versione PHP: 8.2.12
-
+--
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
